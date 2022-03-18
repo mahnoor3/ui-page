@@ -1,9 +1,13 @@
-    html{
+    /* html{
       overflow-x: hidden;
+    } */
+    .left-padding{
+    padding-left:5%;
+    padding-right:5%;
     }
     body {
       font-family: "League Gothic", sans-serif;
-      overflow-x: hidden;
+      width: wrap;
     }
 
     .extra-font-family {
@@ -100,10 +104,13 @@
       padding-bottom: 50px;
     }
 
-    .logo-height{
+    .logo-height {
       height: 70%;
     }
 
+    .remove-padding {
+      padding-right: 0px !important;
+    }
     .logo-text-position{
       position: relative;
     }
@@ -235,9 +242,14 @@
     .eighty-px{
       font-size: 50px;
     }
+    .left-padding{
+      padding-left:0%;
+      padding-right:0%;
+      }
     .seventy-px{
       font-size: 40px;
     }
+
       .c-padding {
         padding-top: 40px;
         padding-bottom: 40px;
